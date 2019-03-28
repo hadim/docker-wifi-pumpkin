@@ -1,0 +1,12 @@
+version: '3'
+services:
+  pumpkin:
+    container_name: pumpkin
+    build: .
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix:rw
+      - /dev/rfkill:/dev/rfkill:rw
+    environment:
+      - DISPLAY=$DISPLAY
+    network_mode: host
+

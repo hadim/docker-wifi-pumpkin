@@ -1,0 +1,24 @@
+channels:
+    - conda-forge
+
+dependencies:
+    - twisted
+    - cryptography
+    - ipython
+    - matplotlib
+    - beautifulsoup4
+    - lxml
+    - dnspython
+    - netifaces
+    - configparser
+    - cython
+    - configobj
+    - python-libarchive-c
+    - python-magic
+    - pefile
+    - hyperframe
+    - h2
+    - service_identity
+    - pyopenssl
+    - pyqt =4
+
